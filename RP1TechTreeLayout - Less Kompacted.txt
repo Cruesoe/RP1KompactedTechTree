@@ -1,0 +1,2829 @@
+// RP1 Tech Tree Layout
+@TechTree:NEEDS[RP-1]:AFTER[ZZZZZ-RP0Tree]
+{
+	@RDNode:HAS[#id[start]]
+	{
+		@pos = -3970,2140,1
+		@scale = 1
+	}
+	@RDNode:HAS[#id[postWarMaterialsScience]]
+	{
+		@pos = -3651,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceMint
+	}
+	@RDNode:HAS[#id[earlyMaterialsScience]]
+	{
+		@pos = -3541,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceRed
+	}
+	@RDNode:HAS[#id[materialsScienceSatellite]]
+	{
+		@pos = -3431,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceOrange
+	}
+	@RDNode:HAS[#id[materialsScienceHuman]]
+	{
+		@pos = -2991,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceYellow
+	}
+	@RDNode:HAS[#id[materialsScienceAdvCapsules]]
+	{
+		@pos = -2661,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceGreen
+	}
+	@RDNode:HAS[#id[materialsScienceLunar]]
+	{
+		@pos = -2331,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceCyan
+	}
+	@RDNode:HAS[#id[materialsScienceSpaceStation]]
+	{
+		@pos = -1891,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceBlue
+	}
+	@RDNode:HAS[#id[materialsScienceSpaceplanes]]
+	{
+		@pos = -1759,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceLavender
+	}
+	@RDNode:HAS[#id[materialsScienceLongTerm]]
+	{
+		@pos = -1451,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceTeal
+	}
+	@RDNode:HAS[#id[materialsScienceInternational]]
+	{
+		@pos = -1231,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceBeige
+	}
+	@RDNode:HAS[#id[materialsScienceCommercial]]
+	{
+		@pos = -1011,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsSciencePink
+	}
+	@RDNode:HAS[#id[materialsScienceMatureCommercial]]
+	{
+		@pos = -791,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceBrown
+	}
+	@RDNode:HAS[#id[materialsScienceNF]]
+	{
+		@pos = -670,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceWhite
+	}
+	@RDNode:HAS[#id[materialsScienceColonization]]
+	{
+		@pos = -670,2140,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/MaterialsScienceMint
+	}
+	@RDNode:HAS[#id[highSpeedFlight]]
+	{
+		@pos = -3420,2028,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/highSpeedFlight
+		@Parent:HAS[#parentID[materialsScienceSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedJetEngines]]
+	{
+		@pos = -2650,2028,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/jetGreen
+		@Parent:HAS[#parentID[materialsScienceAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[efficientSupersonic]]
+	{
+		@pos = -2320,2028,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/jetCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[matureTurbofans]]
+	{
+		@pos = -1660,2028,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/jetLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[refinedTurbofans]]
+	{
+		@pos = -1440,2028,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/jetTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[scramjetEngines]]
+	{
+		@pos = -1220,2028,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/jetBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedTurbofans]]
+	{
+		@pos = -1000,2028,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/jetPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[experimentalAircraft]]
+	{
+		@pos = -670,2028,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2051Flight]]
+	{
+		@pos = -670,2028,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2100Flight]]
+	{
+		@pos = -670,2028,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2150Flight]]
+	{
+		@pos = -670,2028,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[unlockParts]]
+	{
+		@pos = -3970,2021,1
+		@scale = 1
+	}
+	@RDNode:HAS[#id[supersonicDev]]
+	{
+		@pos = -3860,2000,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/supersonicDev
+	}
+	@RDNode:HAS[#id[supersonicFlightRP0]]
+	{
+		@pos = -3750,2000,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/supersonicFlightRP0
+	}
+	@RDNode:HAS[#id[matureSupersonic]]
+	{
+		@pos = -3530,2000,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/matureSupersonic
+		@Parent:HAS[#parentID[earlyMaterialsScience]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[hypersonicFlightRP0]]
+	{
+		@pos = -3420,1965,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hypersonicFlightRP0
+		@Parent:HAS[#parentID[materialsScienceSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[prototypeSpaceplanes]]
+	{
+		@pos = -2650,1965,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/spaceplaneGreen
+		@Parent:HAS[#parentID[materialsScienceAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[effectiveSpaceplanes]]
+	{
+		@pos = -2320,1965,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/spaceplaneCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[spaceShuttles]]
+	{
+		@pos = -1660,1965,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/spaceshuttleLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedSpaceplanes]]
+	{
+		@pos = -1440,1965,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/spaceplaneTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedSpaceplanes]]
+	{
+		@pos = -1220,1965,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/spaceplaneBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[highTechSpaceplanes]]
+	{
+		@pos = -1000,1965,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/spaceplanePink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[commercialSpaceplanes]]
+	{
+		@pos = -780,1965,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/spaceplaneBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[experimentalSpaceplanes]]
+	{
+		@pos = -670,1965,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[sstoSpaceplanes]]
+	{
+		@pos = -670,1965,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2100Spaceplanes]]
+	{
+		@pos = -670,1965,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2150Spaceplanes]]
+	{
+		@pos = -670,1965,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[ORPHANS]]
+	{
+		@pos = -3970,1930,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[entryDescentLanding]]
+	{
+		@pos = -3420,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/heatshieldOrange
+		@Parent:HAS[#parentID[materialsScienceSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[humanRatedEDL]]
+	{
+		@pos = -3310,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/heatshield
+	}
+	@RDNode:HAS[#id[earlyLanding]]
+	{
+		@pos = -2650,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/landerGreen
+		@Parent:HAS[#parentID[materialsScienceAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[lunarRatedHeatshields]]
+	{
+		@pos = -2485,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/heatshield
+	}
+	@RDNode:HAS[#id[lunarLanding]]
+	{
+		@pos = -2320,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/landerCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedLandingEngines]]
+	{
+		@pos = -2100,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lander
+	}
+	@RDNode:HAS[#id[advancedUncrewedLanding]]
+	{
+		@pos = -1880,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/landerBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[interplanetaryRovers]]
+	{
+		@pos = -1440,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/roverTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[largeRoverDesigns]]
+	{
+		@pos = -1220,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/roverBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[reusability]]
+	{
+		@pos = -1000,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/landerPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedLanding]]
+	{
+		@pos = -1000,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/advlander
+	}
+	@RDNode:HAS[#id[SIAD]]
+	{
+		@pos = -780,1895,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/heatshieldBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[HIAD]]
+	{
+		@pos = -670,1895,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2051EDL]]
+	{
+		@pos = -670,1895,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2100EDL]]
+	{
+		@pos = -670,1895,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2150EDL]]
+	{
+		@pos = -670,1895,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[orphanParts]]
+	{
+		@pos = -3970,1825,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[crewSurvivability]]
+	{
+		@pos = -3420,1825,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lifesupportOrange
+		@Parent:HAS[#parentID[materialsScienceSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[earlyLifeSupport]]
+	{
+		@pos = -2650,1825,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lifesupportGreen
+		@Parent:HAS[#parentID[materialsScienceAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[lifeSupportISRU]]
+	{
+		@pos = -2320,1825,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lifesupportCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[basicLifeSupport]]
+	{
+		@pos = -1880,1825,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lifesupportBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedLifeSupport]]
+	{
+		@pos = -1660,1825,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lifesupportLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[longTermLifeSupport]]
+	{
+		@pos = -1440,1825,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lifesupportTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedLifeSupport]]
+	{
+		@pos = -1220,1825,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lifesupportBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[efficientLifeSupport]]
+	{
+		@pos = -1000,1825,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lifesupportPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[commercialLifeSupport]]
+	{
+		@pos = -780,1825,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lifesupportBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[lifeSupportNF]]
+	{
+		@pos = -670,1825,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lifesupportWhite
+		@Parent:HAS[#parentID[materialsScienceNF]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[colonization2051LifeSupport]]
+	{
+		@pos = -670,1825,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2100LifeSupport]]
+	{
+		@pos = -670,1825,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2150LifeSupport]]
+	{
+		@pos = -670,1825,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[earlyFlightControl]]
+	{
+		@pos = -3420,1755,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rcsOrange
+		@Parent:HAS[#parentID[materialsScienceSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[stabilityRP0]]
+	{
+		@pos = -2980,1755,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rcsYellow
+		@Parent:HAS[#parentID[materialsScienceHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedFlightControl]]
+	{
+		@pos = -2815,1755,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rcs
+	}
+	@RDNode:HAS[#id[earlyDocking]]
+	{
+		@pos = -2650,1755,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/dockingGreen
+		@Parent:HAS[#parentID[materialsScienceAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[dockingCrewTransfer]]
+	{
+		@pos = -2430,1755,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[spaceStationControl]]
+	{
+		@pos = -1880,1755,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rcsBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[largeSpaceplaneControl]]
+	{
+		@pos = -1660,1755,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rcsLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[standardDockingPorts]]
+	{
+		@pos = -1440,1755,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/dockingCyan
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[largeStationControl]]
+	{
+		@pos = -1220,1755,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rcsBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[largeDockingPorts]]
+	{
+		@pos = -1110,1755,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/docking
+	}
+	@RDNode:HAS[#id[gridFins]]
+	{
+		@pos = -1000,1755,1
+		@scale = 0.8
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[reusableControl]]
+	{
+		@pos = -780,1755,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rcsBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[flightControlNF]]
+	{
+		@pos = -670,1755,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2051Control]]
+	{
+		@pos = -670,1755,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2100Control]]
+	{
+		@pos = -670,1755,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2150Control]]
+	{
+		@pos = -670,1755,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[basicCapsules]]
+	{
+		@pos = -2980,1685,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/capsuleYellow
+		@Parent:HAS[#parentID[materialsScienceHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[secondGenCapsules]]
+	{
+		@pos = -2650,1685,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/capsuleGreen
+		@Parent:HAS[#parentID[materialsScienceAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[lunarOrbiterCapsules]]
+	{
+		@pos = -2430,1685,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lunarcapsule
+	}
+	@RDNode:HAS[#id[matureCapsules]]
+	{
+		@pos = -2320,1685,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/lunarcapsuleCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedCapsules]]
+	{
+		@pos = -1880,1685,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/capsuleBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedCapsules]]
+	{
+		@pos = -1440,1685,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/capsuleTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[modernCapsules]]
+	{
+		@pos = -1000,1685,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/capsulePink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[commercialCapsules]]
+	{
+		@pos = -780,1685,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/capsuleBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[highTechCapsules]]
+	{
+		@pos = -670,1685,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[capsulesNF]]
+	{
+		@pos = -670,1685,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2100Command]]
+	{
+		@pos = -670,1685,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2150Command]]
+	{
+		@pos = -670,1685,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[spaceStationPrototypes]]
+	{
+		@pos = -2320,1615,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/stationCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[spaceStationDev]]
+	{
+		@pos = -2100,1615,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/station1
+	}
+	@RDNode:HAS[#id[earlySpaceStations]]
+	{
+		@pos = -1880,1615,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/stationBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[modularSpaceStations]]
+	{
+		@pos = -1440,1615,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/stationTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[largeScaleOrbitalCon]]
+	{
+		@pos = -1220,1615,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/stationBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedOrbitalConstruction]]
+	{
+		@pos = -1110,1615,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/station2
+	}
+	@RDNode:HAS[#id[inflatableHabitats]]
+	{
+		@pos = -1000,1615,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/stationPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedHabitats]]
+	{
+		@pos = -780,1615,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/stationBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedHabitats]]
+	{
+		@pos = -670,1615,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/stationWhite
+		@Parent:HAS[#parentID[materialsScienceNF]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[largeScaleHabitats]]
+	{
+		@pos = -670,1615,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/stationMint
+		@Parent:HAS[#parentID[materialsScienceColonization]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[colonization2100SpaceStations]]
+	{
+		@pos = -670,1615,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2150SpaceStations]]
+	{
+		@pos = -670,1615,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[earlySolids]]
+	{
+		@pos = -3860,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/booster
+	}
+	@RDNode:HAS[#id[basicSolids]]
+	{
+		@pos = -3640,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterMint
+		@Parent:HAS[#parentID[postWarMaterialsScience]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids1956]]
+	{
+		@pos = -3530,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterRed
+		@Parent:HAS[#parentID[earlyMaterialsScience]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids1958]]
+	{
+		@pos = -3420,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterOrange
+		@Parent:HAS[#parentID[materialsScienceSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids1959]]
+	{
+		@pos = -3310,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/booster
+	}
+	@RDNode:HAS[#id[solids1962]]
+	{
+		@pos = -2980,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterYellow
+		@Parent:HAS[#parentID[materialsScienceHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids1964]]
+	{
+		@pos = -2650,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterGreen
+		@Parent:HAS[#parentID[materialsScienceAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids1966]]
+	{
+		@pos = -2430,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/booster
+	}
+	@RDNode:HAS[#id[solids1967]]
+	{
+		@pos = -2320,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids1969]]
+	{
+		@pos = -2100,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/booster
+	}
+	@RDNode:HAS[#id[solids1972]]
+	{
+		@pos = -1880,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids1976]]
+	{
+		@pos = -1770,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/booster
+	}
+	@RDNode:HAS[#id[solids1981]]
+	{
+		@pos = -1660,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids1986]]
+	{
+		@pos = -1440,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids1992]]
+	{
+		@pos = -1330,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/booster
+	}
+	@RDNode:HAS[#id[solids1998]]
+	{
+		@pos = -1220,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids2009]]
+	{
+		@pos = -1000,1545,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/boosterPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solids2019]]
+	{
+		@pos = -780,1545,1
+		@scale = 0.8
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[solidsNF]]
+	{
+		@pos = -670,1545,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2051Solid]]
+	{
+		@pos = -670,1545,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2100Solid]]
+	{
+		@pos = -670,1545,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[colonization2150Solid]]
+	{
+		@pos = -670,1545,1
+		@scale = 0.8
+	}
+	@RDNode:HAS[#id[firstStagedCombustion]]
+	{
+		@pos = -2980,1475,-1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orscYellow
+		@Parent:HAS[#parentID[materialsScienceHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+		@Parent:HAS[#parentID[orbitalRocketry1959]]
+		{
+			@lineFrom = TOP
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[stagedCombustion1963]]
+	{
+		@pos = -2760,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[stagedCombustion1965]]
+	{
+		@pos = -2540,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+		@Parent:HAS[#parentID[materialsScienceAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[stagedCombustion1966]]
+	{
+		@pos = -2430,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[stagedCombustion1967]]
+	{
+		@pos = -2320,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orscCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[stagedCombustion1968]]
+	{
+		@pos = -2210,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[stagedCombustion1969]]
+	{
+		@pos = -2100,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[stagedCombustion1972]]
+	{
+		@pos = -1880,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orscBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[stagedCombustion1976]]
+	{
+		@pos = -1770,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[stagedCombustion1981]]
+	{
+		@pos = -1660,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orscLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[stagedCombustion1986]]
+	{
+		@pos = -1440,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orscTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[stagedCombustion1992]]
+	{
+		@pos = -1330,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[stagedCombustion1998]]
+	{
+		@pos = -1220,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orscBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[stagedCombustion2004]]
+	{
+		@pos = -1110,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[stagedCombustion2009]]
+	{
+		@pos = -1000,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orscPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[stagedCombustion2014]]
+	{
+		@pos = -890,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[stagedCombustion2019]]
+	{
+		@pos = -780,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orscBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[stagedCombustionNF]]
+	{
+		@pos = -670,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[colonization2051Staged]]
+	{
+		@pos = -670,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[colonization2100Staged]]
+	{
+		@pos = -670,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[colonization2150Staged]]
+	{
+		@pos = -670,1475,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orsc
+	}
+	@RDNode:HAS[#id[rocketryTesting]]
+	{
+		@pos = -3860,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rocketryTesting
+	}
+	@RDNode:HAS[#id[earlyRocketry]]
+	{
+		@pos = -3750,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/earlyRocketry
+	}
+	@RDNode:HAS[#id[basicRocketryRP0]]
+	{
+		@pos = -3530,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/basicRocketryRP0
+		@Parent:HAS[#parentID[earlyMaterialsScience]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketry1956]]
+	{
+		@pos = -3420,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketryOrange
+		@Parent:HAS[#parentID[materialsScienceSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketry1958]]
+	{
+		@pos = -3310,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1959]]
+	{
+		@pos = -3200,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1960]]
+	{
+		@pos = -3090,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1961]]
+	{
+		@pos = -2980,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketryYellow
+		@Parent:HAS[#parentID[materialsScienceHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketry1962]]
+	{
+		@pos = -2870,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1963]]
+	{
+		@pos = -2760,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1964]]
+	{
+		@pos = -2650,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketryGreen
+		@Parent:HAS[#parentID[materialsScienceAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketry1965]]
+	{
+		@pos = -2540,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1966]]
+	{
+		@pos = -2430,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1967]]
+	{
+		@pos = -2320,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketryCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketry1968]]
+	{
+		@pos = -2210,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1969]]
+	{
+		@pos = -2100,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1970]]
+	{
+		@pos = -1990,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1972]]
+	{
+		@pos = -1880,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketryBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketry1976]]
+	{
+		@pos = -1770,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1981]]
+	{
+		@pos = -1660,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketryLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketry1986]]
+	{
+		@pos = -1440,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketryTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketry1992]]
+	{
+		@pos = -1330,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry1998]]
+	{
+		@pos = -1220,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketryBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketry2004]]
+	{
+		@pos = -1110,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry2009]]
+	{
+		@pos = -1000,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketryPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketry2014]]
+	{
+		@pos = -890,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[orbitalRocketry2019]]
+	{
+		@pos = -780,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketryBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[orbitalRocketryNF]]
+	{
+		@pos = -670,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[colonization2051Orbital]]
+	{
+		@pos = -670,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[colonization2100Orbital]]
+	{
+		@pos = -670,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[colonization2150Orbital]]
+	{
+		@pos = -670,1405,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/orbitalrocketry
+	}
+	@RDNode:HAS[#id[prototypeHydrolox]]
+	{
+		@pos = -2870,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+		@Parent:HAS[#parentID[materialsScienceHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[earlyHydrolox]]
+	{
+		@pos = -2760,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+	}
+	@RDNode:HAS[#id[improvedHydrolox]]
+	{
+		@pos = -2430,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+		@Parent:HAS[#parentID[materialsScienceAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[largeHydrolox]]
+	{
+		@pos = -2320,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydroloxCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[hydrolox1968]]
+	{
+		@pos = -2210,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+	}
+	@RDNode:HAS[#id[hydrolox1969]]
+	{
+		@pos = -2100,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+	}
+	@RDNode:HAS[#id[hydrolox1972]]
+	{
+		@pos = -1880,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydroloxBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[hydrolox1976]]
+	{
+		@pos = -1770,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+	}
+	@RDNode:HAS[#id[hydrolox1981]]
+	{
+		@pos = -1660,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydroloxLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[hydrolox1986]]
+	{
+		@pos = -1440,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydroloxTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[hydrolox1992]]
+	{
+		@pos = -1330,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+	}
+	@RDNode:HAS[#id[hydrolox1998]]
+	{
+		@pos = -1220,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydroloxBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[hydrolox2004]]
+	{
+		@pos = -1110,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+	}
+	@RDNode:HAS[#id[hydrolox2009]]
+	{
+		@pos = -1000,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydroloxPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[hydrolox2014]]
+	{
+		@pos = -890,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+	}
+	@RDNode:HAS[#id[hydrolox2019]]
+	{
+		@pos = -780,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydroloxBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[hydroloxNF]]
+	{
+		@pos = -670,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydroloxWhite
+		@Parent:HAS[#parentID[materialsScienceNF]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[colonization2051Hydrolox]]
+	{
+		@pos = -670,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+	}
+	@RDNode:HAS[#id[colonization2100Hydrolox]]
+	{
+		@pos = -670,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+	}
+	@RDNode:HAS[#id[colonization2150Hydrolox]]
+	{
+		@pos = -670,1335,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/hydrolox
+	}
+	@RDNode:HAS[#id[prototypeFRSC]]
+	{
+		@pos = -1990,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frsc
+	}
+	@RDNode:HAS[#id[FRSC1976]]
+	{
+		@pos = -1770,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frsc
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[FRSC1981]]
+	{
+		@pos = -1660,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frscLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[FRSC1986]]
+	{
+		@pos = -1440,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frscTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[FRSC1992]]
+	{
+		@pos = -1330,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frsc
+	}
+	@RDNode:HAS[#id[FRSC1998]]
+	{
+		@pos = -1220,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frscBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[FRSC2009]]
+	{
+		@pos = -1000,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frscPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[FRSC2014]]
+	{
+		@pos = -890,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frsc
+	}
+	@RDNode:HAS[#id[FRSC2019]]
+	{
+		@pos = -780,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frsc
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[FRSCNF]]
+	{
+		@pos = -670,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frsc
+	}
+	@RDNode:HAS[#id[colonization2051FRSC]]
+	{
+		@pos = -670,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frsc
+	}
+	@RDNode:HAS[#id[colonization2100FRSC]]
+	{
+		@pos = -670,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frsc
+	}
+	@RDNode:HAS[#id[colonization2150FRSC]]
+	{
+		@pos = -670,1265,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/frsc
+	}
+	@RDNode:HAS[#id[prototypeNuclearPropulsion]]
+	{
+		@pos = -2320,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclearCyan
+		@Parent:HAS[#parentID[materialsScienceLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[earlyNuclearPropulsion]]
+	{
+		@pos = -1880,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclearBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[basicNuclearPropulsion]]
+	{
+		@pos = -1660,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclearLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedNuclearPropulsion]]
+	{
+		@pos = -1440,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclearTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedNuclearPropulsion]]
+	{
+		@pos = -1220,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclearBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[efficientNuclearPropulsion]]
+	{
+		@pos = -1000,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclearPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[nuclearPropulsionNF]]
+	{
+		@pos = -780,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclearBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[nuclearPropulsionNF2]]
+	{
+		@pos = -670,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclearWhite
+		@Parent:HAS[#parentID[materialsScienceNF]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[colonization2051NuclearProp]]
+	{
+		@pos = -670,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclear
+	}
+	@RDNode:HAS[#id[colonization2100NuclearProp]]
+	{
+		@pos = -670,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclear
+	}
+	@RDNode:HAS[#id[colonization2150NuclearProp]]
+	{
+		@pos = -670,1195,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/nuclear
+	}
+	@RDNode:HAS[#id[earlyElecPropulsion]]
+	{
+		@pos = -1880,1125,-1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/ionBlue
+		@Parent:HAS[#parentID[materialsScienceSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+		@Parent:HAS[#parentID[electronicsSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[elecPropulsion1981]]
+	{
+		@pos = -1660,1125,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/ionLavender
+		@Parent:HAS[#parentID[materialsScienceSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[elecPropulsion1986]]
+	{
+		@pos = -1440,1125,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/ionTeal
+		@Parent:HAS[#parentID[materialsScienceLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[elecPropulsion1998]]
+	{
+		@pos = -1220,1125,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/ionBeige
+		@Parent:HAS[#parentID[materialsScienceInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[elecPropulsion2009]]
+	{
+		@pos = -1000,1125,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/ionPink
+		@Parent:HAS[#parentID[materialsScienceCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[elecPropulsion2019]]
+	{
+		@pos = -780,1125,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/ionBrown
+		@Parent:HAS[#parentID[materialsScienceMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[elecPropulsionNF]]
+	{
+		@pos = -670,1125,-1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/ionWhite
+		@Parent:HAS[#parentID[materialsScienceNF]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+		@Parent:HAS[#parentID[electronicsNF]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[colonization2051ElecProp]]
+	{
+		@pos = -670,1125,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/ionMint
+	}
+	@RDNode:HAS[#id[colonization2100ElecProp]]
+	{
+		@pos = -670,1125,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/ion
+	}
+	@RDNode:HAS[#id[colonization2150ElecProp]]
+	{
+		@pos = -670,1125,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/ion
+	}
+	@RDNode:HAS[#id[electronicsSatellite]]
+	{
+		@pos = -3431,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsOrange
+	}
+	@RDNode:HAS[#id[electronicsHuman]]
+	{
+		@pos = -2991,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsYellow
+	}
+	@RDNode:HAS[#id[electronicsAdvCapsules]]
+	{
+		@pos = -2661,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsGreen
+	}
+	@RDNode:HAS[#id[electronicsLunar]]
+	{
+		@pos = -2331,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsCyan
+	}
+	@RDNode:HAS[#id[electronicsSpaceStation]]
+	{
+		@pos = -1891,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsBlue
+	}
+	@RDNode:HAS[#id[electronicsSpaceplanes]]
+	{
+		@pos = -1671,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsLavender
+	}
+	@RDNode:HAS[#id[electronicsLongTerm]]
+	{
+		@pos = -1451,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsTeal
+	}
+	@RDNode:HAS[#id[electronicsInternational]]
+	{
+		@pos = -1231,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsBeige
+	}
+	@RDNode:HAS[#id[electronicsCommercial]]
+	{
+		@pos = -1011,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsPink
+	}
+	@RDNode:HAS[#id[electronicsMatureCommercial]]
+	{
+		@pos = -791,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsBrown
+	}
+	@RDNode:HAS[#id[electronicsNF]]
+	{
+		@pos = -670,1020,1
+		@scale = 1
+		@icon = RP1KompactedTechTree/icons/electronicsWhite
+	}
+	@RDNode:HAS[#id[electronicsColonization]]
+	{
+		@pos = -670,1020,1
+		@scale = 1
+	}
+	@RDNode:HAS[#id[postWarAvionics]]
+	{
+		@pos = -3860,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionics
+	}
+	@RDNode:HAS[#id[avionicsPrototypes]]
+	{
+		@pos = -3750,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionics
+	}
+	@RDNode:HAS[#id[earlyAvionics]]
+	{
+		@pos = -3420,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionicsOrange
+		@Parent:HAS[#parentID[electronicsSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[basicAvionics]]
+	{
+		@pos = -3200,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionics
+	}
+	@RDNode:HAS[#id[interplanetaryProbes]]
+	{
+		@pos = -2980,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionicsYellow
+		@Parent:HAS[#parentID[electronicsHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedAvionics]]
+	{
+		@pos = -2815,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionics
+	}
+	@RDNode:HAS[#id[matureAvionics]]
+	{
+		@pos = -2650,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionicsGreen
+		@Parent:HAS[#parentID[electronicsAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[largeScaleAvionics]]
+	{
+		@pos = -2320,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionicsCyan
+		@Parent:HAS[#parentID[electronicsLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedAvionics]]
+	{
+		@pos = -1880,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionicsBlue
+		@Parent:HAS[#parentID[electronicsSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[nextGenAvionics]]
+	{
+		@pos = -1660,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionicsLavender
+		@Parent:HAS[#parentID[electronicsSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[longTermAvionics]]
+	{
+		@pos = -1440,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionicsTeal
+		@Parent:HAS[#parentID[electronicsLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[internationalAvionics]]
+	{
+		@pos = -1220,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionicsBeige
+		@Parent:HAS[#parentID[electronicsInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[modernAvionics]]
+	{
+		@pos = -1000,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionicsPink
+		@Parent:HAS[#parentID[electronicsCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advModernAvionics]]
+	{
+		@pos = -780,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionics
+		@Parent:HAS[#parentID[electronicsMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[avionicsNF]]
+	{
+		@pos = -670,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionics
+	}
+	@RDNode:HAS[#id[colonization2051Avionics]]
+	{
+		@pos = -670,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionics
+	}
+	@RDNode:HAS[#id[colonization2100Avionics]]
+	{
+		@pos = -670,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionics
+	}
+	@RDNode:HAS[#id[colonization2150Avionics]]
+	{
+		@pos = -670,915,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/avionics
+	}
+	@RDNode:HAS[#id[earlyScience]]
+	{
+		@pos = -3750,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/science
+	}
+	@RDNode:HAS[#id[scienceSatellite]]
+	{
+		@pos = -3420,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/scienceOrange
+		@Parent:HAS[#parentID[electronicsSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[scienceHuman]]
+	{
+		@pos = -2980,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/scienceYellow
+		@Parent:HAS[#parentID[electronicsHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[scienceAdvCapsules]]
+	{
+		@pos = -2650,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/scienceGreen
+		@Parent:HAS[#parentID[electronicsAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[scienceLunar]]
+	{
+		@pos = -2320,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/scienceCyan
+		@Parent:HAS[#parentID[electronicsLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[surfaceScience]]
+	{
+		@pos = -2100,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/science
+	}
+	@RDNode:HAS[#id[deepSpaceScience]]
+	{
+		@pos = -1880,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/scienceBlue
+		@Parent:HAS[#parentID[electronicsSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[scienceExploration]]
+	{
+		@pos = -1660,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/scienceLavender
+		@Parent:HAS[#parentID[electronicsSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[sampleReturnScience]]
+	{
+		@pos = -1440,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/scienceTeal
+		@Parent:HAS[#parentID[electronicsLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedScience]]
+	{
+		@pos = -1220,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/scienceBeige
+		@Parent:HAS[#parentID[electronicsInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedSurfaceScience]]
+	{
+		@pos = -1000,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/science
+		@Parent:HAS[#parentID[electronicsCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advModernScience]]
+	{
+		@pos = -780,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/science
+		@Parent:HAS[#parentID[electronicsMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[scienceNF]]
+	{
+		@pos = -670,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/science
+	}
+	@RDNode:HAS[#id[colonization2051Science]]
+	{
+		@pos = -670,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/science
+	}
+	@RDNode:HAS[#id[colonization2100Science]]
+	{
+		@pos = -670,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/science
+	}
+	@RDNode:HAS[#id[colonization2150Science]]
+	{
+		@pos = -670,845,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/science
+	}
+	@RDNode:HAS[#id[primitiveSolarPanels]]
+	{
+		@pos = -3420,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerOrange
+		@Parent:HAS[#parentID[electronicsSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[earlyPower]]
+	{
+		@pos = -2980,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerYellow
+		@Parent:HAS[#parentID[electronicsHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[basicPower]]
+	{
+		@pos = -2815,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/power
+	}
+	@RDNode:HAS[#id[improvedPower]]
+	{
+		@pos = -2650,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerGreen
+		@Parent:HAS[#parentID[electronicsAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[lunarRatedPower]]
+	{
+		@pos = -2320,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerCyan
+		@Parent:HAS[#parentID[electronicsLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[spaceStationSolarPanels]]
+	{
+		@pos = -1880,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerBlue
+		@Parent:HAS[#parentID[electronicsSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[maturePower]]
+	{
+		@pos = -1660,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerLavender
+		@Parent:HAS[#parentID[electronicsSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[largeScaleSolarArrays]]
+	{
+		@pos = -1440,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerTeal
+		@Parent:HAS[#parentID[electronicsLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedPower]]
+	{
+		@pos = -1220,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerBeige
+		@Parent:HAS[#parentID[electronicsInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[modernPower]]
+	{
+		@pos = -1000,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerPink
+		@Parent:HAS[#parentID[electronicsCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advModernPower]]
+	{
+		@pos = -780,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerBrown
+		@Parent:HAS[#parentID[electronicsMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[powerNF]]
+	{
+		@pos = -670,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/powerWhite
+		@Parent:HAS[#parentID[electronicsNF]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[colonization2051Power]]
+	{
+		@pos = -670,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/power
+	}
+	@RDNode:HAS[#id[colonization2100Power]]
+	{
+		@pos = -670,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/power
+	}
+	@RDNode:HAS[#id[colonization2150Power]]
+	{
+		@pos = -670,775,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/power
+	}
+	@RDNode:HAS[#id[firstRTG]]
+	{
+		@pos = -2980,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtgYellow
+		@Parent:HAS[#parentID[electronicsHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[earlyRTG]]
+	{
+		@pos = -2815,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtg
+	}
+	@RDNode:HAS[#id[nuclearFissionReactors]]
+	{
+		@pos = -2650,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtgGreen
+		@Parent:HAS[#parentID[electronicsAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedRTG]]
+	{
+		@pos = -2320,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtgCyan
+		@Parent:HAS[#parentID[electronicsLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[multihundredWattRTG]]
+	{
+		@pos = -1880,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtgBlue
+		@Parent:HAS[#parentID[electronicsSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[gphsRTG]]
+	{
+		@pos = -1660,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtgLavender
+		@Parent:HAS[#parentID[electronicsSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedNuclearPower]]
+	{
+		@pos = -1440,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtgTeal
+		@Parent:HAS[#parentID[electronicsLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedNuclearPower]]
+	{
+		@pos = -1220,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtgBeige
+		@Parent:HAS[#parentID[electronicsInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[modernNuclearPower]]
+	{
+		@pos = -1000,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtgPink
+		@Parent:HAS[#parentID[electronicsCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advModernNuclearPower]]
+	{
+		@pos = -780,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtgBrown
+		@Parent:HAS[#parentID[electronicsMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[nuclearPowerNF]]
+	{
+		@pos = -670,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtg
+	}
+	@RDNode:HAS[#id[colonization2051NuclearPower]]
+	{
+		@pos = -670,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtg
+	}
+	@RDNode:HAS[#id[colonization2100NuclearPower]]
+	{
+		@pos = -670,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtg
+	}
+	@RDNode:HAS[#id[colonization2150NuclearPower]]
+	{
+		@pos = -670,705,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/rtg
+	}
+	@RDNode:HAS[#id[lunarRangeComms]]
+	{
+		@pos = -3420,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/commsOrange
+		@Parent:HAS[#parentID[electronicsSatellite]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[digitalComms]]
+	{
+		@pos = -3200,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/comms
+	}
+	@RDNode:HAS[#id[interplanetaryComms]]
+	{
+		@pos = -2980,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/commsYellow
+		@Parent:HAS[#parentID[electronicsHuman]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[improvedComms]]
+	{
+		@pos = -2650,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/commsGreen
+		@Parent:HAS[#parentID[electronicsAdvCapsules]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advancedComms]]
+	{
+		@pos = -2320,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/commsCyan
+		@Parent:HAS[#parentID[electronicsLunar]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[deepSpaceComms]]
+	{
+		@pos = -1880,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/commsBlue
+		@Parent:HAS[#parentID[electronicsSpaceStation]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[highDataRateComms]]
+	{
+		@pos = -1770,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/comms
+	}
+	@RDNode:HAS[#id[largeScaleComms]]
+	{
+		@pos = -1660,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/commsLavender
+		@Parent:HAS[#parentID[electronicsSpaceplanes]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[massiveScaleComms]]
+	{
+		@pos = -1440,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/commsTeal
+		@Parent:HAS[#parentID[electronicsLongTerm]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[efficientComms]]
+	{
+		@pos = -1220,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/commsBeige
+		@Parent:HAS[#parentID[electronicsInternational]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[modernComms]]
+	{
+		@pos = -1000,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/commsPink
+		@Parent:HAS[#parentID[electronicsCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[advModernComms]]
+	{
+		@pos = -780,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/comms
+		@Parent:HAS[#parentID[electronicsMatureCommercial]]
+		{
+			@lineFrom = BOTTOM
+			@LineTo = LEFT
+		}
+	}
+	@RDNode:HAS[#id[commsNF]]
+	{
+		@pos = -670,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/comms
+	}
+	@RDNode:HAS[#id[colonization2051Comms]]
+	{
+		@pos = -670,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/comms
+	}
+	@RDNode:HAS[#id[colonization2100Comms]]
+	{
+		@pos = -670,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/comms
+	}
+	@RDNode:HAS[#id[colonization2150Comms]]
+	{
+		@pos = -670,635,1
+		@scale = 0.8
+		@icon = RP1KompactedTechTree/icons/comms
+	}
+}
