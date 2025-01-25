@@ -8,4 +8,4 @@
 1.3		Tweaks to layout and bug fixes
 1.4		Tweaks to layout and bug fixes
 1.5		Tree Overhaul, some position adjustments and new icons
-	
+1.5.3	Minor bug fixes to the very end of the tree
