@@ -1,11 +1,44 @@
-1.0	-	Iniital Release
-1.1	-	Colour coded nodes added
-		Adjustment of node positions based on feedback
-		Further adjustments to fit entire tree in default view
-1.2		Changed Blue Sky node icons, previous full colour icons looked strange when In Progress orange overlay was applied.
-		Small adjustment to node positions
-		Alternative larger layout included for those with higher resolution screens - see instructions included in download on how to apply
-1.3		Tweaks to layout and bug fixes
-1.4		Tweaks to layout and bug fixes
-1.5		Tree Overhaul, some position adjustments and new icons
-1.5.3	Minor bug fixes to the very end of the tree
+261011
+	Entry, Descent and Landing, Human Rated EDL and Crew Survivability now sit in their unlock year columns (Joshuawood1998)
+	High-Tech Capsules and Near Future Capsules had swapped places; both are now in the right column
+	2051-2099 Control, 2051-2099 Life Support and ISRU and SSTO Spaceplanes were hidden under their Near Future nodes; they now sit in the 2051-2099 column
+	Colonization Era Electronics Research now sits before the nodes it unlocks
+	James Van Allen's research bonus now points to the science row in this layout instead of the bottom row (sparr)
+	Version numbers are now the release date
+
+1.5.5
+	Moved the Advanced Landing node, which was overlapping the Reusability node (periodically-makes-puns)
+
+1.5.4
+	Fixed the science icons when a z-theme is used
+
+1.5.3
+	Minor bug fixes to the very end of the tree
+
+1.5.2
+	Fixed a bug introduced in 1.5.1
+
+1.5.1
+	Added a Less Kompacted layout option to the download
+
+1.5
+	Tree overhaul: position adjustments and new icons
+
+1.4
+	Tweaks to layout and bug fixes
+
+1.3
+	Tweaks to layout and bug fixes
+
+1.2
+	Changed the Blue Sky node icons; the previous full color icons looked strange under the In Progress orange overlay
+	Small adjustments to node positions
+	Alternative larger layout included for higher resolution screens
+
+1.1
+	Color coded nodes
+	Adjusted node positions based on feedback
+	Further adjustments to fit the entire tree in the default view
+
+1.0
+	Initial release
